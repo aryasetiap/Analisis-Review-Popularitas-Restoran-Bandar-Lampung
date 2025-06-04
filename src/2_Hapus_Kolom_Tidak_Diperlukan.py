@@ -7,6 +7,8 @@ df = pd.read_csv('data/data_gabungan.csv')
 kolom_dipertahankan = [
     'title',
     'address',
+    'location/lat',
+    'location/lng',
     'url',
     'reviewId',
     'stars',
